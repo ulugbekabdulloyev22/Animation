@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+body span, body i {
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #00071d;
+}
+body i {
+  font-size: 16px;
+  padding: 5px;
+}
+
+main.activ2 {
+  width: 70px;
+  height: 100px;
+  transition: all 1s;
+}
+main.activ2 button {
+  display: none;
+}
+main.activ2 span {
+  display: none;
+}
+main.activ2 .user-profl {
+  width: 70px;
+}
+
+body.activ {
+  background-color: #00071d;
+}
+body.activ main {
+  background-color: #1c2339;
+}
+body.activ main .sun_moon {
+  background-color: #131c31;
+}
+body.activ main .sun_moon span:nth-child(2) {
+  border-radius: 20px;
+  background-color: #212b41;
+}
+body.activ main .sun_moon span:nth-child(1) {
+  border-radius: 20px;
+  background-color: #131c31;
+}
+body.activ main .sun_moon span:nth-child(1) i {
+  color: #fff;
+}
+body.activ main .sun_moon span:nth-child(1):hover {
+  background-color: #212b41;
+  transition: all 0.4s;
+}
+body.activ main .sun_moon span:nth-child(1):hover span {
+  transition: all 0.4s;
+  background-color: #212b41;
+}
+body.activ main .sun_moon span:nth-child(1) span {
+  background-color: #131c31;
+}
+body.activ main i, body.activ main span {
+  color: #f5f4fd;
+}
+body.activ main button, body.activ main .user-profl {
+  background-color: #36415e;
+}
+body.activ main button .user-img, body.activ main .user-profl .user-img {
+  border: 1px solid white;
+}
+
+main.activ1 {
+  width: 90px;
+  transition: all 0.5s;
+}
+main.activ1 .sun_moon span:nth-child(1) {
+  display: block;
+}
+main.activ1 span {
+  display: none;
+  transition: all 1s ease;
+}
+main.activ1 .angles i:nth-child(1) {
+  display: none;
+}
+main.activ1 .angles i:nth-child(2) {
+  display: block;
+}
+main.activ1 .user-profl {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+main {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.432) 0px 7px 29px 0px;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: all 0.5s;
+  position: relative;
+}
+main .sun_moon {
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+main .sun_moon span {
+  cursor: pointer;
+}
+main .sun_moon span:nth-child(1) {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+main .sun_moon span:nth-child(1) i {
+  color: #00071d;
+}
+main .sun_moon span:nth-child(1), main .sun_moon span:nth-child(2) {
+  font-size: 18px;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+main .sun_moon span:nth-child(1):hover, main .sun_moon span:nth-child(2):hover {
+  background-color: #f1f1f1;
+}
+main .sun_moon span:nth-child(1) span, main .sun_moon span:nth-child(2) span {
+  padding: 4px 10px;
+}
+main button {
+  width: 100%;
+  height: 40px;
+  margin: 15px 0;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: #f9f8fb;
+}
+main button:hover, main button:focus {
+  background-color: #eae9ec;
+}
+main .user-profl {
+  width: 100%;
+  height: 60px;
+  background-color: #f9f8fb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+main .user-profl:hover {
+  background-color: #eae9ec;
+}
+main .user-profl .user-img {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .user-profl .user-img img {
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .user-profl span {
+  font-size: 17px;
+  width: 150px;
+  text-align: center;
+}
+main .angles, main .zip {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  right: -10px;
+  background-color: #fff;
+}
+main .angles:hover, main .angles:focus, main .zip:hover, main .zip:focus {
+  background-color: #f88181;
+}
+main .angles i:nth-child(2), main .zip i:nth-child(2) {
+  display: none;
+}
+main .zip {
+  top: 25px;
+}/*# sourceMappingURL=stayl.css.map */
